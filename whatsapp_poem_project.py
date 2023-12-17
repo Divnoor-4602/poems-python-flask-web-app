@@ -1,13 +1,8 @@
-from yagmail import SMTP
-from twilio.rest import Client
-from dotenv import load_dotenv
 from pprint import pprint
 from random import choice, randint
 import requests
 import os
 
-# import environment file
-load_dotenv()
 
 poetry_database_api_url = "https://poetrydb.org/author/"
 poets_to_get = [
